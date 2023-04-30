@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - name: my-flask-app
+    image: 314937863587.dkr.ecr.us-east-1.amazonaws.com/my-cloud-native-repo:latest
